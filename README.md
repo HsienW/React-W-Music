@@ -7,7 +7,7 @@
 > API：[Spotify Web API](https://developer.spotify.com/web-api/)
 
 ## 說明： 
-#### W.Music 是一個串接 Spotify Web API 所完成的音樂播放器，主要由以下四塊 Model 所組成
+#### W.Music 是一個串接 Spotify Web API 所完成的音樂播放器，主要由以下四塊 Module 所組成
 
 - **Auth** ： 登入相關、Spotify 獲取帳號授權；
 - **LeftMenu** ： 切換音樂類型列表、搜尋音樂、歌手、專輯；
