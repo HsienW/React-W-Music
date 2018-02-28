@@ -16,7 +16,7 @@
 
 ## Demo：
 
-![img](https://github.com/qwe75300/one/blob/master/0001097.jpg)
+![img](https://github.com/HsienW/React-W-Music/blob/master/React-W-Music-Demo.gif)
 
 ## 功能:
 #### LeftMenu: 音樂分類
