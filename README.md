@@ -2,7 +2,7 @@
 
 > 技術：React16、Redux、React-Router、Webpack、Babel、ESLint
 
-> UI：[Ant Design](https://ant.design/index-cn)
+> UI：[Ant Design](https://ant.design/)
 
 > API：[Spotify Web API](https://developer.spotify.com/web-api/)
 
