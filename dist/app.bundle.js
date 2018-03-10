@@ -22147,8 +22147,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Main = function Main(_ref) {
     var match = _ref.match;
 
-    console.log('77777777777777777777777777777777777777');
-    console.log(match);
     switch (match) {
         case 'signin':
             _WebStorage2.default.setSessionStorage(WebStorageKeys.PORTAL_URL, '');
