@@ -2,8 +2,10 @@
   "name": "React-Spotify",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bundle.js",
+  "homepage": "https://hsienw.github.io/React-W-Music/signin",
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build --history-api-fallback",
     "prd": "webpack -p"
