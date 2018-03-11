@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
-  "homepage": "https://hsienw.github.io/React-W-Music/signin",
+  "homepage": "https://hsienw.github.io/React-W-Music",
   "scripts": {
     "deploy": "npm run build&&gh-pages -d build",
     "build": "webpack",
