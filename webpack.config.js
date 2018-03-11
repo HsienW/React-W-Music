@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-    entry: ['babel-polyfill', './app/App.jsx'],
+    entry: './app/App.jsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'app.bundle.js',
@@ -43,17 +43,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'W-music',
-            template: './dist/index.html',
+            template: 'dist/index.html',
             filename: 'index.html',
-            minify: {
-                collapseWhitespace: true
-            },
-            hash: true
         }),
         new ExtractTextPlugin({
             filename: 'bundle.css',
-            disable: false,
-            allChunks: true
         }),
     ],
 
