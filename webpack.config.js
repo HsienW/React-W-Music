@@ -42,8 +42,9 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Custom template',
-            template: 'app/index.html',
+            title: 'W-music',
+            template: './dist/index.html',
+            filename: 'index.html',
             minify: {
                 collapseWhitespace: true
             },
